@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background:  linear-gradient(#7aadff,#7aadff);
+    background-image: url(bg1.jpg);
+    
+}
+.head, .third{
+    background-color: rgb(58, 172, 218);
+}
+.top  {
+    margin: 0 10%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+}
+.fas, .fab{
+    margin-right: 10px;
+}
+.fa-phone-square-alt{
+    margin-left: 30px;
+}
+#search{
+    width: 200px;
+    height: 25px;
+}
+.second{
+    margin: 0 10%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    margin-top: 35px;
+    height: 25px;
+}
+.fa-search{
+    background-color: rgb(58, 172, 218);
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+input {
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    outline:rgb(58, 172, 218) ;
+}
+::-webkit-input-placeholder{
+    color:rgb(58, 172, 218) ;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    margin: 0 10%;
+    color: white;
+    height: 40px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+     margin-top: 20px;
+    margin-bottom: 20px; 
+    padding: 20px 20px;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.images{
+    width: 100%;
+}
+#bg1{
+    width: 100%;
+}
+.col{
+    width: 100%;
+    display: flex;
+}
+.col img{
+    width: 25%;
+    margin-top: -4px;
+}
+.cards{
+    display: flex;
+}
+.card1, .card2, .card3, .card4{
+    width: 25%;
+}
+.cards h2{
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(58, 172, 218) ;
+    margin-top: 30px;
+}
+.cards p{
+    text-align: center;
+    margin: 30px 20px;
+}
+.card1, .card3{
+    background-color: rgba(102, 101, 101, 0.2);
+}
+.products{
+    margin: 0 10%;
+}
+.heading{
+    color: white;
+    background-color:rgb(58, 172, 218) ;
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pro {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+}
+.prod{
+    display: flex;
+    margin-bottom: 50px;
+}
+.pro1, .pro2, .pro3, .pro4 , .pro5, .pro6,.pro6,.pro7,.pro8{
+    margin: 10px 20px;
+    width: 25%;
+    text-align: center;
+    color:rgb(58, 172, 218) ;
+}
+.products img{
+    box-shadow: 6px 6px 5px rgba(102, 101, 101, 0.2);
+}
+.products p{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.sec{
+    background-color: rgba(102, 101, 101, 0.2);
+    margin-top: 20px;
+}
+.section{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+}
+.title{
+    color: white;
+    background-color:rgb(58, 172, 218) ;
+    text-align: center;
+    text-transform: uppercase;
+    /* margin-top: 50px; */
+}
+h1{
+    margin-top: 30px;
+}
+.down{
+    display: flex;
+    padding-bottom: 50px;
+}
+.right{
+    width: 35%;
+    background-color: white;
+    margin-top: 50px;
+}
+.left{
+    margin-top: 50px;
+    width: 65%;
+    background: url(content1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title p{
+    padding: 20px 30px;
+    text-align: left;
+    margin-top: 0;
+}
+.right ul li{
+    list-style: none;
+    color: rgb(58, 172, 218);
+    margin: 20px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
+.content{
+    width: 60%;
+    background-color: rgba(54, 53, 53,0.5);
+    color: white;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content p{
+    padding-left: 20px;
+    padding-top: 30px;
+    line-height: 1em;
+}
+.content ul{
+    padding-left: 60px;
+    padding-top: 30px;
+    text-transform: capitalize;
+    padding-bottom: 105px;
+}
+
+.cont{
+    background: linear-gradient(rgba(58, 172, 218,0.7),rgba(58, 172, 218,0.7)),url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mid{
+    margin: 0 30%;
+}
+.mid h1{
+    text-transform: uppercase;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    margin: 0 5%;
+}
+.btn{
+    width: 290px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(58, 172, 218) ;
+    background-color: white;
+    border: none;
+    outline: none;  
+}
+.btn2{
+    margin-left: 20px;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(58, 172, 218);
+    outline: 1px solid black;
+}
+.footer{
+    margin: 0 10%;
+    display: flex;
+}
+.foot{
+    width: 25%;
+    margin-top: 40px;
+}
+.foot2{
+    margin-left: 5%;
+}
+span{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(58, 172, 218);
+    text-transform: uppercase;
+}
+.icons{
+    display: flex;
+    margin-top: 15px;
+    color:rgb(58, 172, 218) ;
+}
+.icons:hover, .social:hover,.foot ul li:hover,.foot img:hover, .cards:hover{
+    cursor: pointer;
+}
+.icons .fa-phone-square-alt{
+    margin-left: 0;
+}
+.connect{
+    margin-top: 65px;
+}
+.social{
+    margin-top: 15px;
+}
+.social .fab{
+    color: rgb(58, 172, 218);
+}
+.foot ul li{
+    list-style: none;
+    color:rgb(58, 172, 218) ;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.foot2 p{
+    color:rgb(58, 172, 218) ;
+}
+.card{
+    margin-top: 20px;
+}
+.cc{
+    font-size: 35px;
+}
+.pay{
+    font-size: 12px;
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-weight: 500;
+    color: rgb(92, 55, 226);
+}
+.wpay{
+    color: rgb(92, 55, 226);
+    font-weight: 1000;
+    text-transform: none;
+    font-size: 27px;
+}
+.end{
+    margin-top: 40px;
+    background-color:rgb(58, 172, 218) ;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+.end p{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+    margin-left: 40%;
+}
+
+@media only screen and (max-width: 800px )and (min-width: 768px){
+
+    nav{
+        margin: 0 10%;
+        color: white;
+        display: block;
+        height: auto;
+    }
+    nav ul li{
+        list-style: none;
+        display: block;
+        text-align: center;
+    }
+    .pro {
+        margin-top: 30px;
+        display: flex;
+        width: 100%;
+    }
+    .prod{
+        display: flex;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .products{
+        margin: 0 10%;
+    }
+    .pro1, .pro2, .pro3, .pro4 , .pro5, .pro6,.pro6,.pro7,.pro8{
+        margin: 10px 0;
+        width: 25%;
+        text-align: center;
+        color:rgb(58, 172, 218) ;
+        
+    }
+    .pro2 img{
+        height: 78%;
+    }
+    .pro1 img{
+        height: 78%;
+    }
+    .pro1 img,.pro2 img,.pro3 img,.pro4 img,.pro5 img,.pro6 img,.pro7 img,.pro8 img{
+        width: 100%;
+    }
+    .pro2, .pro3, .pro4 , .pro5, .pro6,.pro6,.pro7,.pro8{
+        padding-left: 10px;
+    }
+    .btn{
+        margin-left: 20px;
+    }
+    .mid{
+        margin: 0 10%;
+        text-align: center;
+    }
+    .logo{
+        width: 130px;
+    }
+    .foot{
+        flex-wrap: wrap;
+    }
+    .icons p{
+        overflow-x: hidden;
+    }
+    .search{
+        margin-top: 20px;
+        height: 25px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width:475px){
+    
+    .logo{
+        width: 100px;
+    }
+    .contact{
+        flex-wrap: wrap;
+        width: 60%;
+    }
+    .fa-phone-square-alt{
+        margin-left: 0;
+    }
+    .fleft{
+        width: 25%;
+        margin-left: 15%;
+    }
+    .search{
+        margin-top: 12px;
+        height: 25px;
+    }
+    #search{
+        width: 90px;
+    }
+    .fa-search{
+        background-color: rgb(58, 172, 218);
+        padding: 5px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    input {
+        padding: 10px 15px;
+        font-size: 12px;
+        width: 50px;
+        outline:rgb(58, 172, 218) ;
+    }
+    
+    nav{
+        margin: 0 10%;
+        color: white;
+        display: block;
+        height: auto;
+    }
+    nav ul li{
+        list-style: none;
+        display: block;
+        text-align: center;
+        font-size: 12px;
+    }
+    nav ul li a{
+        font-size: medium;
+    }
+    .pro {
+        margin-top: 30px;
+        display: flex;
+        width: 100%;
+    }
+    .prod{
+        display: flex;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .products{
+        margin: 0 10%;
+    }
+    .pro1, .pro2, .pro3, .pro4 , .pro5, .pro6,.pro6,.pro7,.pro8{
+        margin: 10px 0;
+        width: 25%;
+        text-align: center;
+        color:rgb(58, 172, 218) ;
+        
+    }
+    .pro2 img{
+        height: 78%;
+    }
+    .pro1 img,.pro3 img,.pro4 img{
+        height: 78%;
+    }
+    .pro1 img,.pro2 img,.pro3 img,.pro4 img,.pro5 img,.pro6 img,.pro7 img,.pro8 img{
+        width: 100%;
+    }
+    .pro2, .pro3, .pro4 , .pro5, .pro6,.pro6,.pro7,.pro8{
+        padding-left: 10px;
+    }
+    .products p{
+        font-size: x-small;
+    }
+    .cards{
+        display: block;
+        width: 100%;
+    }
+    .card1, .card2, .card3, .card4{
+        width: 80%;
+        margin: 30px 10%;
+    }
+    .cards h2{
+        text-align: center;
+        text-transform: uppercase;
+        color:rgb(58, 172, 218) ;
+        padding-top: 20px;
+    }
+    .cards p{
+        text-align: center;
+        margin: 30px 20px;
+        padding-bottom: 20px;
+    }
+    .card1, .card3{
+        background-color: rgba(102, 101, 101, 0.2);
+    }
+    .card2, .card4{
+        background-color: aliceblue;
+    }
+    .down{
+        display: block;
+        padding-bottom: 50px;
+    }
+    .right{
+        width: 100%;
+        background-color: white;
+        margin-top: 30px;
+    }
+    .left{
+        margin-top: 30px;
+        width: 100%;
+        background: url(content1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .title p{
+        padding: 20px 30px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .right ul{
+        padding-bottom: 20px;
+    }
+    .right ul li{
+        list-style: none;
+        color: rgb(58, 172, 218);
+        margin: 15px 20px;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .content{
+        width: 60%;
+        background-color: rgba(54, 53, 53,0.5);
+        color: white;
+        font-size: 18px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .content p{
+        padding-left: 20px;
+        padding-top: 30px;
+        line-height: 1.5em;
+        font-size: x-small;
+    }
+    .content ul{
+        padding-left: 40px;
+        padding-top: 30px;
+        font-size: x-small;
+        line-height: 1.5em;
+    }
+    .cont{
+        background: linear-gradient(rgba(58, 172, 218,0.7),rgba(58, 172, 218,0.7)),url(bg1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .mid{
+        margin: 0 10%;
+    }
+    .btn{
+        margin-left: 0px;
+        width: 300px;
+    }
+    .btn2{
+        margin-top: 0;
+    }
+    .mid{
+        margin: 0 10%;
+        text-align: center;
+    }
+    .logo{
+        width: 130px;
+    }
+    .footer{
+        display: block;
+        width: 90%;
+    }
+    .foot{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .foot2{
+        margin-left: 0;
+    }
+    .connect{
+        margin-top: 20px;
+    }
+    .icons p{
+        overflow-x: hidden;
+    }
+    .search{
+        margin-top: 20px;
+        height: 25px;
+    }
+    .end p{
+        text-align: center;
+        font-size: medium;
+        margin-left: 20%;
+    }
+    .heading{
+        font-size: 12px;
+    }
+    span{
+        font-size: 22px;
+    }
+    
+
+}
+    
